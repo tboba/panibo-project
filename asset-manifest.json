@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.02ecaab4.css",
-    "main.js": "/static/js/main.be95e8ea.js",
-    "static/media/work-3.jpg": "/static/media/work-3.5aac9634d1dcc26c6bfb.jpg",
-    "static/media/work-1.jpg": "/static/media/work-1.f2739d0f8331203445d3.jpg",
-    "static/media/work-2.jpg": "/static/media/work-2.e24311f3ef64a36dbe9c.jpg",
-    "static/media/run-2.jpg": "/static/media/run-2.fc93dc0b86003ae43d4d.jpg",
-    "static/media/run-3.jpg": "/static/media/run-3.001b02869de7f1fe3912.jpg",
-    "static/media/run-1.jpg": "/static/media/run-1.6a8080abea2053fbfee5.jpg",
-    "static/media/raleway.ttf": "/static/media/raleway.575ec9e676c7a85494bb.ttf",
-    "static/media/whoami.jpg": "/static/media/whoami.fb3f3b2ae0bd8ca680ab.jpg",
-    "static/media/monika.jpg": "/static/media/monika.9b724d5210efdd7354d9.jpg",
-    "index.html": "/index.html",
-    "main.02ecaab4.css.map": "/static/css/main.02ecaab4.css.map",
-    "main.be95e8ea.js.map": "/static/js/main.be95e8ea.js.map"
+    "main.css": "/www-project-1/static/css/main.40dbe4fd.css",
+    "main.js": "/www-project-1/static/js/main.7486064f.js",
+    "static/media/work-3.jpg": "/www-project-1/static/media/work-3.5aac9634d1dcc26c6bfb.jpg",
+    "static/media/work-1.jpg": "/www-project-1/static/media/work-1.f2739d0f8331203445d3.jpg",
+    "static/media/work-2.jpg": "/www-project-1/static/media/work-2.e24311f3ef64a36dbe9c.jpg",
+    "static/media/run-2.jpg": "/www-project-1/static/media/run-2.fc93dc0b86003ae43d4d.jpg",
+    "static/media/run-3.jpg": "/www-project-1/static/media/run-3.001b02869de7f1fe3912.jpg",
+    "static/media/run-1.jpg": "/www-project-1/static/media/run-1.6a8080abea2053fbfee5.jpg",
+    "static/media/raleway.ttf": "/www-project-1/static/media/raleway.575ec9e676c7a85494bb.ttf",
+    "static/media/whoami.jpg": "/www-project-1/static/media/whoami.fb3f3b2ae0bd8ca680ab.jpg",
+    "static/media/monika.jpg": "/www-project-1/static/media/monika.9b724d5210efdd7354d9.jpg",
+    "index.html": "/www-project-1/index.html",
+    "main.40dbe4fd.css.map": "/www-project-1/static/css/main.40dbe4fd.css.map",
+    "main.7486064f.js.map": "/www-project-1/static/js/main.7486064f.js.map"
   },
   "entrypoints": [
-    "static/css/main.02ecaab4.css",
-    "static/js/main.be95e8ea.js"
+    "static/css/main.40dbe4fd.css",
+    "static/js/main.7486064f.js"
   ]
 }
