@@ -6,7 +6,7 @@ const AboutMe = () => {
   const isWide = useMedia({minWidth: '1100px'});
 
   return (
-    <div className='my-[15rem]'>
+    <div className='my-[13rem] pt-[5rem]' id='aboutme'>
       <div className='flex justify-center'>
         {isWide && <div className="relative before:content-['a'] before:text-transparent
           before:w-36 before:h-36 before:absolute before:z-[-1] before:bg-gray-500 before:opacity-60 before:bottom-[165px] before:left-[-15px]">
