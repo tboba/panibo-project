@@ -1,11 +1,11 @@
 import {Link} from "react-router-dom";
 
-const RunnerOne = require('../../static/running/run-1.jpg');
-const RunnerTwo = require('../../static/running/run-2.jpg');
-const RunnerThree = require('../../static/running/run-3.jpg');
-const WorkOne = require('../../static/work/work-1.jpg');
-const WorkTwo = require('../../static/work/work-2.jpg');
-const WorkThree = require('../../static/work/work-3.jpg');
+const RunnerOne = require('../../static/images/running/run-1.jpg');
+const RunnerTwo = require('../../static/images/running/run-2.jpg');
+const RunnerThree = require('../../static/images/running/run-3.jpg');
+const WorkOne = require('../../static/images/work/work-1.jpg');
+const WorkTwo = require('../../static/images/work/work-2.jpg');
+const WorkThree = require('../../static/images/work/work-3.jpg');
 
 const WhatAmIDoing = () => {
   return (

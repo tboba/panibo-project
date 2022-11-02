@@ -1,6 +1,6 @@
 import {useMedia} from "use-media";
 
-const WhoamiPhoto = require('../../static/whoami.jpg');
+const WhoamiPhoto = require('../../static/images/whoami.jpg');
 
 const AboutMe = () => {
   const isWide = useMedia({minWidth: '1100px'});

@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: "raleway";
-  src: url("static/raleway.ttf");
+  src: url("static/fonts/raleway.ttf");
 }
 
 @layer base {
@@ -14,6 +14,10 @@
 
   .main-window-height {
     height: calc(100vh - 10em);
+  }
+
+  .not-found-window-height {
+    height: calc(100vh - 13.25em);
   }
 
   .blog-info-window-height {

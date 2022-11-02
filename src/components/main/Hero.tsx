@@ -4,7 +4,7 @@ import {useMedia} from "use-media";
 import React from "react";
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
-const Monika = require('../../static/monika.jpg');
+const Monika = require('../../static/images/monika.jpg');
 
 const Hero = () => {
   const isWide = useMedia({minWidth: '800px', minHeight: '650px'});

@@ -2,7 +2,7 @@ import WPAPI from 'wpapi';
 import {useEffect, useState} from "react";
 import React from "react";
 import BlogPost from "./BlogPost";
-import {useBlogContext} from "../store/blog-store";
+import {useBlogContext} from "../../store/blog-store";
 
 const BlogBoard = () => {
   const [hasErrored, setHasErrored] = useState(false);

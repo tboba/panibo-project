@@ -6,7 +6,7 @@ import MainContent from "./components/main/MainContent";
 import Footer from "./components/ui/Footer";
 import NotFound from "./components/ui/NotFound";
 import BlogBoard from "./components/blog/BlogBoard";
-import BlogContextProvider from "./components/store/blog-store";
+import BlogContextProvider from "./store/blog-store";
 import ContactPage from "./components/contact/ContactPage";
 
 function App() {
