@@ -7,6 +7,7 @@ import Footer from "./components/ui/Footer";
 import NotFound from "./components/ui/NotFound";
 import BlogBoard from "./components/blog/BlogBoard";
 import BlogContextProvider from "./components/store/blog-store";
+import ContactPage from "./components/contact/ContactPage";
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
         <Routes>
           <Route path='/' element={<MainContent />} />
           <Route path='/blog' element={<BlogBoard />} />
-          {/*<Route path='/contact' />*/}
+          <Route path='/contact' element={<ContactPage />} />
           <Route path='*' element={<NotFound />} />
         </Routes>
       </BlogContextProvider>
