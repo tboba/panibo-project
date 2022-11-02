@@ -2,7 +2,7 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faArrowDown} from "@fortawesome/free-solid-svg-icons";
 import {useMedia} from "use-media";
 import React from "react";
-import { HashLink as Link } from 'react-router-hash-link';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const Monika = require('../../static/monika.jpg');
 
@@ -27,11 +27,11 @@ const Hero = () => {
       </div>
     </div>
 
-    <Link to='#aboutme'>
+    <AnchorLink href='#aboutme'>
       <div className='absolute left-[50%] bottom-[2em]'>
         <FontAwesomeIcon icon={faArrowDown} className='fa-2x rounded-full border border-black border-solid p-2'/>
       </div>
-    </Link>
+    </AnchorLink>
   </>
 }
 

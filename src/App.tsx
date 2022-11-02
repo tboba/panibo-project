@@ -5,17 +5,21 @@ import MainNavigation from "./components/ui/MainNavigation";
 import MainContent from "./components/main/MainContent";
 import Footer from "./components/ui/Footer";
 import NotFound from "./components/ui/NotFound";
+import BlogBoard from "./components/blog/BlogBoard";
+import BlogContextProvider from "./components/store/blog-store";
 
 function App() {
   return (
     <div className='overflow-y-hidden'>
       <MainNavigation />
-      <Routes>
-        <Route path='/' element={<MainContent />} />
-        {/*<Route path='/blog' />*/}
-        {/*<Route path='/contact' />*/}
-        <Route path='*' element={<NotFound />} />
-      </Routes>
+      <BlogContextProvider>
+        <Routes>
+          <Route path='/' element={<MainContent />} />
+          <Route path='/blog' element={<BlogBoard />} />
+          {/*<Route path='/contact' />*/}
+          <Route path='*' element={<NotFound />} />
+        </Routes>
+      </BlogContextProvider>
       <Footer />
     </div>
   );

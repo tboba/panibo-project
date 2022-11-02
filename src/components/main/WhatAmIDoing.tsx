@@ -16,13 +16,13 @@ const WhatAmIDoing = () => {
           <img src={RunnerTwo} alt='Siedzę na plaży z medalem' className='w-[30em] mb-[3em] pl-5 border-l-4 border-black' />
           <img src={RunnerThree} alt='Kończę bieg dla WOŚPu' className='w-[30em] object-cover pl-5 border-l-4 border-black' />
         </div>
-        <h2 className='md:mr-[5em] font-bold text-4xl tracking-wider'>Kocham biegać.</h2>
+        <h2 className='md:mr-[5em] font-bold text-4xl tracking-wider'>Kocham biegać,</h2>
       </div>
 
       <hr className='my-16 mx-52' />
 
       <div className='flex justify-around items-center'>
-        <h2 className='ml-[5em] font-bold text-4xl tracking-wider'>Tworzyć rękodzieło.</h2>
+        <h2 className='ml-[5em] font-bold text-4xl tracking-wider'>Tworzyć rękodzieło,</h2>
         <div className='flex flex-col'>
           <img src={WorkOne} alt='Skrzaty, moje rękodzieło' className='w-[30em] mb-[3em] pr-5 border-r-4 border-black' />
           <img src={WorkTwo} alt='Baranki, moje rękodzieło' className='w-[30em] mb-[3em] pr-5 border-r-4 border-black' />
@@ -33,7 +33,9 @@ const WhatAmIDoing = () => {
       <div className='mt-[8em] mb-[8em]'>
         <h2 className='text-center font-semibold text-3xl mb-4'>Oraz pisać bloga.</h2>
         <Link to='/blog'>
-          <button className='block m-auto text-lg uppercase tracking-widest text-white px-[5em] py-[1em] bg-indigo-400 rounded-lg'>Sprawdź moje wpisy!</button>
+          <button
+            onClick={() => window.scrollTo(0, 0)}
+            className='block m-auto text-lg uppercase tracking-widest text-white px-[5em] py-[1em] bg-indigo-400 rounded-lg'>Sprawdź moje wpisy!</button>
         </Link>
       </div>
     </div>
