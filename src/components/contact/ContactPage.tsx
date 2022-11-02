@@ -1,5 +1,7 @@
 import ContactForm from "./ContactForm";
 import {useMedia} from "use-media";
+import {Helmet} from "react-helmet";
+import React from "react";
 
 const ContactPage = () => {
   const isWide = useMedia({minHeight: '630px'});
@@ -7,6 +9,10 @@ const ContactPage = () => {
 
   return (
     <>
+      <Helmet>
+          <title>panibo.pl | Kontakt</title>
+      </Helmet>
+
       {isWide &&
           <div className={commonStyling}>
           <h1 className='text-4xl font-bold tracking-wider mb-2 mt-5'>Kontakt</h1>

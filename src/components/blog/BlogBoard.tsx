@@ -1,6 +1,7 @@
 import WPAPI from 'wpapi';
 import {useEffect, useState} from "react";
 import React from "react";
+import {Helmet} from 'react-helmet';
 import BlogPost from "./BlogPost";
 import {useBlogContext} from "../../store/blog-store";
 
@@ -30,11 +31,16 @@ const BlogBoard = () => {
   });
 
   return (
-    <div className={(posts.length === 0 || hasErrored) ? 'blog-info-window-height' : ''}>
-      {posts.length !== 0 && posts.map(post => <BlogPost key={post.id} title={post.title.rendered} data={post.excerpt.rendered} link={post.link} />)}
-      {posts.length === 0 && !hasErrored && <h1 className={infoStyle}>Trwa ładowanie postów...</h1>}
-      {posts.length === 0 && hasErrored && <h1 className={infoStyle}>Przepraszamy! Wystąpił krytyczny błąd.</h1>}
-    </div>
+    <>
+      <Helmet>
+        <title>panibo.pl | Mój blog</title>
+      </Helmet>
+      <div className={(posts.length === 0 || hasErrored) ? 'blog-info-window-height' : ''}>
+        {posts.length !== 0 && posts.map(post => <BlogPost key={post.id} title={post.title.rendered} data={post.excerpt.rendered} link={post.link} />)}
+        {posts.length === 0 && !hasErrored && <h1 className={infoStyle}>Trwa ładowanie postów...</h1>}
+        {posts.length === 0 && hasErrored && <h1 className={infoStyle}>Przepraszamy! Wystąpił krytyczny błąd.</h1>}
+      </div>
+    </>
   );
 }
 
