@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/www-project-1/static/css/main.050a4c8b.css",
-    "main.js": "/www-project-1/static/js/main.aebaad56.js",
+    "main.js": "/www-project-1/static/js/main.e4383f1e.js",
     "static/media/work-3.jpg": "/www-project-1/static/media/work-3.5aac9634d1dcc26c6bfb.jpg",
     "static/media/work-1.jpg": "/www-project-1/static/media/work-1.f2739d0f8331203445d3.jpg",
     "static/media/work-2.jpg": "/www-project-1/static/media/work-2.e24311f3ef64a36dbe9c.jpg",
@@ -10,13 +10,15 @@
     "static/media/run-1.jpg": "/www-project-1/static/media/run-1.6a8080abea2053fbfee5.jpg",
     "static/media/raleway.ttf": "/www-project-1/static/media/raleway.575ec9e676c7a85494bb.ttf",
     "static/media/whoami.jpg": "/www-project-1/static/media/whoami.fb3f3b2ae0bd8ca680ab.jpg",
+    "static/media/apple-touch-icon.png": "/www-project-1/static/media/apple-touch-icon.9272e6df5b3aed35b50b.png",
     "static/media/monika.jpg": "/www-project-1/static/media/monika.9b724d5210efdd7354d9.jpg",
+    "static/media/favicon.ico": "/www-project-1/static/media/favicon.9140f030092b183f89c8.ico",
     "index.html": "/www-project-1/index.html",
     "main.050a4c8b.css.map": "/www-project-1/static/css/main.050a4c8b.css.map",
-    "main.aebaad56.js.map": "/www-project-1/static/js/main.aebaad56.js.map"
+    "main.e4383f1e.js.map": "/www-project-1/static/js/main.e4383f1e.js.map"
   },
   "entrypoints": [
     "static/css/main.050a4c8b.css",
-    "static/js/main.aebaad56.js"
+    "static/js/main.e4383f1e.js"
   ]
 }
