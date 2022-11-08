@@ -9,20 +9,20 @@ const WorkThree = require('../../static/images/work/work-3.jpg');
 
 const WhatAmIDoing = () => {
   return (
-    <div>
-      <div className='flex justify-around items-center'>
+    <div className='min-w-[930px]'>
+      <div className='flex justify-evenly items-center'>
         <div className='flex flex-col'>
           <img src={RunnerOne} alt='Selfie w górach' className='w-[30em] mb-[3em] pl-5 border-l-4 border-black' />
           <img src={RunnerTwo} alt='Siedzę na plaży z medalem' className='w-[30em] mb-[3em] pl-5 border-l-4 border-black' />
           <img src={RunnerThree} alt='Kończę bieg dla WOŚPu' className='w-[30em] object-cover pl-5 border-l-4 border-black' />
         </div>
-        <h2 className='md:mr-[5em] font-bold text-4xl tracking-wider'>Kocham biegać,</h2>
+        <h2 className='font-bold text-4xl tracking-wider'>Kocham biegać,</h2>
       </div>
 
       <hr className='my-16 mx-52' />
 
-      <div className='flex justify-around items-center'>
-        <h2 className='ml-[5em] font-bold text-4xl tracking-wider'>Tworzyć rękodzieło,</h2>
+      <div className='flex justify-evenly items-center'>
+        <h2 className='font-bold text-4xl tracking-wider'>Tworzyć rękodzieło,</h2>
         <div className='flex flex-col'>
           <img src={WorkOne} alt='Skrzaty, moje rękodzieło' className='w-[30em] mb-[3em] pr-5 border-r-4 border-black' />
           <img src={WorkTwo} alt='Baranki, moje rękodzieło' className='w-[30em] mb-[3em] pr-5 border-r-4 border-black' />
