@@ -1,13 +1,13 @@
 import Hero from "./Hero";
 import AboutMe from "./AboutMe";
-import WhatAmIDoing from "./WhatAmIDoing";
+import Hobbies from "./hobbies/Hobbies";
 
 const MainContent = () => {
   return (
     <>
       <Hero/>
       <AboutMe/>
-      <WhatAmIDoing />
+      <Hobbies />
     </>
   );
 }

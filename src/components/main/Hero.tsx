@@ -9,7 +9,7 @@ const Monika = require('../../static/images/monika.jpg');
 const Hero = () => {
   const isWide = useMedia({minWidth: '800px', minHeight: '650px'});
 
-  return <>
+  return <div className='pb-[5rem]'>
     <div className='flex items-center main-window-height'>
       <div className='flex flex-row justify-evenly items-center w-full'>
         <p className='font-semibold tracking-tight text-5xl leading-[1.10]'>
@@ -27,12 +27,12 @@ const Hero = () => {
       </div>
     </div>
 
-    <AnchorLink href='#aboutme'>
+    {isWide && <AnchorLink href='#aboutme'>
       <div className='absolute left-[50%] bottom-[2em]'>
         <FontAwesomeIcon icon={faArrowDown} className='fa-2x rounded-full border border-black border-solid p-2'/>
       </div>
-    </AnchorLink>
-  </>
+    </AnchorLink>}
+  </div>
 }
 
 export default Hero;

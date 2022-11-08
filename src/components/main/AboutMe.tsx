@@ -3,16 +3,16 @@ import {useMedia} from "use-media";
 const WhoamiPhoto = require('../../static/images/whoami.jpg');
 
 const AboutMe = () => {
-  const isWide = useMedia({minWidth: '1100px'});
+  const isWide = useMedia({minWidth: '1024px'});
 
   return (
-    <div className='my-[13rem] pt-[5rem]' id='aboutme'>
+    <div className='lg:my-[13rem] sm:mb-[13rem] pt-[5rem]' id='aboutme'>
       <div className='flex justify-center'>
         {isWide && <div className="relative before:content-['a'] before:text-transparent
           before:w-36 before:h-36 before:absolute before:z-[-1] before:bg-gray-500 before:opacity-60 before:bottom-[165px] before:left-[-15px]">
           <img src={WhoamiPhoto} alt='O mnie' className='w-[25em]' />
         </div>}
-        <div className="w-[35em] sm:ml-[5em] mt-[25em] before:content-[''] before:absolute before:w-[250px] before:h-[140px] before:bg-purple before:left-[-30px] before:top-[-30px]">
+        <div className="w-[35em] sm:ml-[3em] mt-[25em] before:content-[''] before:absolute before:w-[250px] before:h-[140px] before:bg-purple before:left-[-30px] before:top-[-30px]">
           <h1 className="relative font-bold text-5xl before:content-['a'] before:text-transparent
           before:w-36 before:absolute before:z-[-1] before:bg-amber-200 before:opacity-60 before:mt-[-3px] before:top-[-10px] before:left-[-10px]">
             Kim jestem?
