@@ -1,0 +1,10 @@
+# Ignore built files except build/index.js
+build/*
+**/*.ttf
+**/*.jpg
+**/*.png
+**/*.ico
+**/*.svg
+**/*.map
+**/*.css
+**/*.scss

@@ -1,38 +1,41 @@
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faArrowDown} from "@fortawesome/free-solid-svg-icons";
-import {useMedia} from "use-media";
-import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
+import { useMedia } from 'use-media';
+import React from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const Monika = require('../../static/images/monika.jpg');
 
 const Hero = () => {
-  const isWide = useMedia({minWidth: '800px', minHeight: '650px'});
+  const isWide = useMedia({ minWidth: '800px', minHeight: '650px' });
 
-  return <div className='pb-[5rem]'>
-    <div className='flex items-center main-window-height'>
-      <div className='flex flex-row justify-evenly items-center w-full'>
-        <p className='font-semibold tracking-tight text-5xl leading-[1.10]'>
-          Cześć,
-          <br/>
-          Tutaj <span className='pb-1 border-b-[4px] border-solid border-b-slate-900'>Monika.</span>
-        </p>
+  return (
+    <div className="pb-[5rem]">
+      <div className="main-window-height flex items-center">
+        <div className="flex w-full flex-row items-center justify-evenly">
+          <p className="text-5xl font-semibold leading-[1.10] tracking-tight">
+            Cześć,
+            <br />
+            Tutaj <span className="border-b-[4px] border-solid border-b-slate-900 pb-1">Monika.</span>
+          </p>
 
-        {isWide &&
-            <div className='p-[1em] border border-dashed rounded-md border-slate-900'>
-                <img src={Monika} alt="Monika" className='w-[25em]'/>
+          {isWide && (
+            <div className="rounded-md border border-dashed border-slate-900 p-[1em]">
+              <img src={Monika} alt="Monika" className="w-[25em]" />
             </div>
-        }
-
+          )}
+        </div>
       </div>
+
+      {isWide && (
+        <AnchorLink href="#aboutme">
+          <div className="absolute left-[50%] bottom-[2em]">
+            <FontAwesomeIcon icon={faArrowDown} className="fa-2x rounded-full border border-solid border-black p-2" />
+          </div>
+        </AnchorLink>
+      )}
     </div>
-
-    {isWide && <AnchorLink href='#aboutme'>
-      <div className='absolute left-[50%] bottom-[2em]'>
-        <FontAwesomeIcon icon={faArrowDown} className='fa-2x rounded-full border border-black border-solid p-2'/>
-      </div>
-    </AnchorLink>}
-  </div>
-}
+  );
+};
 
 export default Hero;

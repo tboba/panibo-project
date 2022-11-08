@@ -3,13 +3,13 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "raleway";
-  src: url("static/fonts/raleway.ttf");
+  font-family: 'raleway';
+  src: url('static/fonts/raleway.ttf');
 }
 
 @layer base {
   body {
-    @apply min-w-full min-h-screen bg-slate-100;
+    @apply min-h-screen min-w-full bg-slate-100;
   }
 
   .main-window-height {
@@ -29,7 +29,7 @@
   }
 
   .yellow-before {
-    content: "";
+    content: '';
     position: absolute;
     background-color: rgb(255, 216, 41);
     width: 250px;

@@ -1,8 +1,8 @@
-import React, {createContext, useContext, useState} from "react";
+import React, { createContext, useContext, useState } from 'react';
 
 type BlogContextObj = {
   posts: any[];
-  setPosts: (posts: []) => void,
+  setPosts: (posts: []) => void;
 };
 
 const BlogContext = createContext<BlogContextObj>({
@@ -15,7 +15,7 @@ const BlogContextProvider: React.FC<{ children: React.ReactNode }> = (props) => 
 
   const contextValue: BlogContextObj = {
     posts,
-    setPosts
+    setPosts,
   };
 
   return <BlogContext.Provider value={contextValue}>{props.children}</BlogContext.Provider>;
