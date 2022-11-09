@@ -4,9 +4,9 @@ import HobbiesRightPanel from './HobbiesRightPanel';
 
 const Hobbies = () => {
   return (
-    <>
+    <section>
       <HobbiesLeftPanel />
-      <hr className="mx-52 md:my-8 lg:my-16" />
+      <hr className="mx-52 sm:my-8 lg:my-16" />
       <HobbiesRightPanel />
 
       <div className="mt-[4em] mb-[8em]">
@@ -20,7 +20,7 @@ const Hobbies = () => {
           </button>
         </Link>
       </div>
-    </>
+    </section>
   );
 };
 

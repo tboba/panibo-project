@@ -16,7 +16,8 @@ const AboutMe = () => {
             <img src={WhoamiPhoto} alt="O mnie" className="w-[25em]" />
           </div>
         )}
-        <div className="mt-[25em] w-[35em] before:absolute before:left-[-30px] before:top-[-30px] before:h-[140px] before:w-[250px] before:content-[''] sm:ml-[3em]">
+
+        <article className="mt-[25em] w-[35em] before:absolute before:left-[-30px] before:top-[-30px] before:h-[140px] before:w-[250px] before:content-[''] sm:ml-[3em]">
           <h1
             className="relative text-5xl font-bold before:absolute before:top-[-10px]
           before:left-[-10px] before:z-[-1] before:mt-[-3px] before:w-36 before:bg-amber-200 before:text-transparent before:opacity-60 before:content-['a']"
@@ -46,7 +47,7 @@ const AboutMe = () => {
             <br />
             wyobraźnią, którą wciąż rozwijam, w spokojnym rytmie slow i poszanowaniem natury.
           </p>
-        </div>
+        </article>
       </div>
     </div>
   );

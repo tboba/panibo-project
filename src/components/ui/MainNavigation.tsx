@@ -6,7 +6,7 @@ const MainNavigation = () => {
   const defaultStyling = 'color-[#95bcf0] uppercase font-semibold tracking-tight mr-[2em]';
 
   return (
-    <div className="mr-[5em] mt-[2em] flex items-baseline justify-end p-0">
+    <header className="mr-[5em] mt-[2em] flex items-baseline justify-end p-0">
       <div className="ml-[3rem]">
         <NavLink
           to="/"
@@ -48,7 +48,7 @@ const MainNavigation = () => {
           onClick={() => window.open('https://www.facebook.com/pracownia.pani.bo')}
         />
       </div>
-    </div>
+    </header>
   );
 };
 

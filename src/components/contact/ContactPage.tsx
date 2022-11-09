@@ -9,11 +9,11 @@ const ContactPage = () => {
         <title>panibo.pl | Kontakt</title>
       </Helmet>
 
-      <div className="contact-window-height flex min-h-[630px] flex-col items-center">
+      <section className="contact-window-height flex min-h-[630px] flex-col items-center">
         <h1 className="mb-2 mt-5 text-4xl font-bold tracking-wider">Kontakt</h1>
         <h3 className="mb-8 text-xl font-semibold">Skontaktuj się ze mną! :)</h3>
         <ContactForm />
-      </div>
+      </section>
     </>
   );
 };

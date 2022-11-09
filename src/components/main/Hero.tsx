@@ -10,7 +10,7 @@ const Hero = () => {
   const isWide = useMedia({ minWidth: '800px', minHeight: '650px' });
 
   return (
-    <div className="pb-[5rem]">
+    <section className="pb-[5rem]">
       <div className="main-window-height flex items-center">
         <div className="flex w-full flex-row items-center justify-evenly">
           <p className="text-5xl font-semibold leading-[1.10] tracking-tight">
@@ -34,7 +34,7 @@ const Hero = () => {
           </div>
         </AnchorLink>
       )}
-    </div>
+    </section>
   );
 };
 
