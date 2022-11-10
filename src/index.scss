@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply min-w-full min-h-screen;
+  }
+
+  .main-window-height {
+    height: calc(100vh - 10em);
+  }
+}
